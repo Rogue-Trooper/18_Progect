@@ -4,7 +4,7 @@ from view import View
 
 
 def main():
-    size = 200
+    size = 1
     ls = RectangleCreator.get_rectangles(size)
     total_square = Logic.calculate_total_square(ls)
     total_perimeter = Logic.calculate_total_perimeter(ls)

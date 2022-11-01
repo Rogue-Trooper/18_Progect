@@ -10,7 +10,10 @@ class Rectangle:
     def calculator_perimeter(self):
         return (self.a + self.b) * 2
 
-    def get_info(self):
+    def __repr__(self):
+        return f"Technical information about instance."
+
+    def __str__(self):
         return f"Rectangle: a = {self.a}, b = {self.b}"
 
     def __del__(self):
